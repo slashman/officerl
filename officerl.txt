@@ -1,0 +1,73 @@
+OfficeRL: The servers rebellion
+-------------------------------
+By Milesss and Slash
+Team @tRoCiouS
+
+What is OfficeRL?
+-----------------
+
+Office items an their effects:
+-----------------------------
+* Powerups:
+ * Coffee - increases speed for some time, there are many types of it
+ * Dolphin figurine - provides better luck
+
+* Weapons
+ * Fire-extinguisher - can be used as a weapon or to extinguish fire; can blind
+ * Cactus - radiation swallowing cactus, use it if you have nothing to wield;
+ * Computer Keyboard
+ * Mouse (mid-range weapon)
+ * Diskette (ranged shurikenlike)
+ * Stapler (short range, low hit, high damage)
+ * Broom (mid range
+
+* Misc
+ * Glue - can be used to set traps, repair; can cause hallu status :)
+
+
+Character Creation
+------------------
+* Name: 10 characters
+* Pre-game actions: influence the start up
+** eat breakfast - satiates you at start of game
+** drink coffe - increases speed
+** sleep longer
+** read newspaper - some tips about game (like a fortune cookie)
+** recharge mobile phone
+
+Your Cellphone
+--------------
+Your cellphone is a very special item, but has limited batteries.
+
+You can use it to generate interference that dismantles hardware,
+like elevators control and gate access panels.
+
+You can also use it to play if you are bored.
+
+Too bad your calling service is cancelled and thus you cant call
+for help... you must have paid it instead of buying that blue cap!
+
+
+We are the architects, we designed this building.
+
+We wonder if along all these years you have liked the window design, which was our main concern.
+
+The combat system
+
+AttackP =
+
+
+
+Implementation
+
+DIM level(20) as STRING * 60, yes?
+
+DIM itemData(20) as STRING * 12 'here is data shared by items of the
+same type - only item names come to my mind
+TYPE creatureDataT 'data shared by all creatures of the same type
+   name AS STRING * 12
+   maxHP AS STRING
+   behavior AS INTEGER
+   treasureType AS INTEGER
+END TYPE
+DIM creatureData(12) as creatureDataT
